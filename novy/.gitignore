@@ -57,3 +57,4 @@ instance/
 
 # Variables d'environnement (mots de passe, clés API)
 .env
+
