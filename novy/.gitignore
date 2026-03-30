@@ -39,3 +39,21 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Environnement virtuel (TRÈS IMPORTANT : ne jamais push le venv)
+venv/
+ENV/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de données locale (pour éviter d'écraser la DB de tes collègues)
+instance/
+*.sqlite3
+*.db
+
+# Variables d'environnement (mots de passe, clés API)
+.env
